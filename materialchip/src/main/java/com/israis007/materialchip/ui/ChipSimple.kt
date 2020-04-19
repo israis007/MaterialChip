@@ -78,10 +78,10 @@ class ChipSimple @JvmOverloads constructor(
         val lap = iv_icon.layoutParams as ConstraintLayout.LayoutParams
         val lap_close = iv_iconClose.layoutParams as ConstraintLayout.LayoutParams
 
-        lap.width = simpleAttrs.textChipSize.toInt()
-        lap.height = simpleAttrs.textChipSize.toInt()
-        lap_close.width = simpleAttrs.textChipSize.toInt()
-        lap_close.height = simpleAttrs.textChipSize.toInt()
+        lap.width = (simpleAttrs.textChipSize * 1.5).toInt()
+        lap.height = (simpleAttrs.textChipSize * 1.5).toInt()
+        lap_close.width = (simpleAttrs.textChipSize * 1.5).toInt()
+        lap_close.height = (simpleAttrs.textChipSize * 1.5).toInt()
 
         iv_icon.layoutParams = lap
         iv_iconClose.layoutParams = lap_close
