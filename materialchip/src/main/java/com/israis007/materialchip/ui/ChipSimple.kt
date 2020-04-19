@@ -60,6 +60,7 @@ class ChipSimple @JvmOverloads constructor(
     }
 
     private fun drawChip(){
+        this@ChipSimple.removeAllViews()
         val chipl = LayoutInflater.from(context).inflate(R.layout.simplechip, null, false)
         val cl_root = chipl.findViewById<ConstraintLayout>(R.id.simplechip_conslayout)
         val tv_text = chipl.findViewById<AppCompatTextView>(R.id.simplechip_text)
@@ -188,6 +189,11 @@ class ChipSimple @JvmOverloads constructor(
 
     fun addChipSimpleEvent(event: ChipSimpleEvent){
         this.simpleEvent = event
+    }
+
+    fun setText(string: String){
+        simpleAttrs.textChip = string
+        drawChip()
     }
 
 }

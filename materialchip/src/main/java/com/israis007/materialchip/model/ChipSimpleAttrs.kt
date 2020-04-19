@@ -7,7 +7,7 @@ data class ChipSimpleAttrs(
     val iconChip: Drawable,
     val iconChipTint: Int?,
     val iconChipGravity: ChipTextGravity.IconChipGravity,
-    val textChip: String,
+    var textChip: String,
     val textChipColor: Int,
     val textChipSize: Float,
     val textChipPadding: Float,
