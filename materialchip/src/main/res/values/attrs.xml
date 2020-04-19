@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ChipSimple">
+        <attr name="iconChipShow" format="boolean"/>
+        <attr name="iconChip" format="reference" />
+        <attr name="iconChipTint" format="color" />
+        <attr name="iconChipGravity" format="enum">
+            <enum name="start" value="0" />
+            <enum name="end" value="1" />
+        </attr>
+        <attr name="textChip" format="string" />
+        <attr name="textChipColor" format="color" />
+        <attr name="textChipSize" format="dimension" />
+        <attr name="textChipPadding" format="dimension" />
+        <attr name="textChipPaddingStart" format="dimension" />
+        <attr name="textChipPaddingTop" format="dimension" />
+        <attr name="textChipPaddingEnd" format="dimension" />
+        <attr name="textChipPaddingBottom" format="dimension" />
+        <attr name="backgroundChip" format="color" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="strokeColor" format="color" />
+        <attr name="closable" format="boolean" />
+        <attr name="closeIcon" format="reference" />
+        <attr name="closeIconTint" format="color" />
+        <attr name="closeIconChipGravity" format="enum">
+            <enum name="start" value="0" />
+            <enum name="end" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

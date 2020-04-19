@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#fff</color>
+    <color name="text">#7C7C7C</color>
+    <color name="tint">#0f0f0f</color>
+    <color name="stroke">#77AAAAAA</color>
+</resources>

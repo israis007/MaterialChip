@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="radius">50sp</dimen>
+    <dimen name="stroke">1sp</dimen>
+    <dimen name="padding">0sp</dimen>
+    <dimen name="text">12sp</dimen>
+    <dimen name="padTop">3sp</dimen>
+    <dimen name="padStart">9sp</dimen>
+    <dimen name="padEnd">9sp</dimen>
+    <dimen name="padBottom">4sp</dimen>
+</resources>
